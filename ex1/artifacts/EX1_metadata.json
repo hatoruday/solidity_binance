@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "changeDate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ex1/ex1.sol": "EX1"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ex1/ex1.sol": {
+			"keccak256": "0xf58a556d40dc92f6f5c0433673b96f61d24dee2f5f188e622659c69ded3b2a31",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6debfc3ca7081ab64b0a0c1c5802f0fdcc91e63489ada84c9fc8037b2f0bd9b",
+				"dweb:/ipfs/QmR2jjXYMGPGGRpALWr4yzsVDrMSEYFVTrRdDcGVE1hhyP"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Bid",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SoldOut",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "auctionStart",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ex9/ex9.sol": "Enum"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ex9/ex9.sol": {
+			"keccak256": "0x718af5305d0966ee0825369b153bd5f4c844a6010828f8a05b38b457afafac85",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://14aca5f06a1eee25421dbefe42552ea651f5f99b1081b80f079ed404327fcff4",
+				"dweb:/ipfs/QmXNBerE7qNtspFu64uGPbrCw5i5RHLaiACZR2yhQ7iNFQ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "externalFunc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"address/this.sol": "This"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"address/this.sol": {
+			"keccak256": "0xa62812d8c3e3486152825a8c5b879538a10cd9f2d7253f1f83446ba99bfb3c18",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b2ec6671a8683850cbb4fde79225bebd46eac24b1811f889454b21b0145c8138",
+				"dweb:/ipfs/QmTH1Acf1iEysdpa5XSpRkivGkpm9FVC4RWRnzRZ19iH6A"
+			]
+		}
+	},
+	"version": 1
+}

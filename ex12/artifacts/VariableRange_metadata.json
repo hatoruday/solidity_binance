@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ex12/ex12.sol": "VariableRange"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ex12/ex12.sol": {
+			"keccak256": "0x8e1eb5db18bd9ab4bf5a0c1293a43ce7c71d23040a25bebb11b8e203ffbfdcab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e440de875266cb20f4be7b1b71cc63abbecc0e746eb0a6b3f6871f14b4c6ab1",
+				"dweb:/ipfs/QmXK7GDovZgTk4j9rUyyoWLmeMfPvKeNS2S9aUW66PoRkD"
+			]
+		}
+	},
+	"version": 1
+}
