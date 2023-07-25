@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "getDoor",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -20,32 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "payable_user",
+				"name": "getModel",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setEth",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "user",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -65,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"address/address.sol": "Address"
+			"ex14/inherit.sol": "Audi"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -79,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"address/address.sol": {
-			"keccak256": "0x9db7ed607bc35b8a0c817566966c9bbf39b370003f2455bbd278bf6596792897",
+		"ex14/inherit.sol": {
+			"keccak256": "0x0206c14994e4f8cd45135a8e33ef4cecc9215866b85e3fee7ce9c3014c0a42cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://574caf543dc307795611a2c95ce29ea40bd4dfa4b119810372d57da2af795052",
-				"dweb:/ipfs/QmeaWRW7Q6tY6usEpaqbtPDMYNyKoAfR4hrET9q7x3gkMt"
+				"bzz-raw://69a2662f4ae0a467acb27adeac7d1ce72a28bf4407daa34c54fd428572c7d409",
+				"dweb:/ipfs/QmcBRyCYhfZ12ty2N1zoCWpYvjuom4mWKehW5tfvmGLhfa"
 			]
 		}
 	},

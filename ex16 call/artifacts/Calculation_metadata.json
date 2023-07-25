@@ -6,8 +6,49 @@
 	"output": {
 		"abi": [
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -19,37 +60,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "payable_user",
-				"outputs": [
-					{
-						"internalType": "address payable",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setEth",
-				"outputs": [],
 				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "user",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -65,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"address/address.sol": "Address"
+			"ex16 call/delegate.sol": "Calculation"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -79,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"address/address.sol": {
-			"keccak256": "0x9db7ed607bc35b8a0c817566966c9bbf39b370003f2455bbd278bf6596792897",
+		"ex16 call/delegate.sol": {
+			"keccak256": "0x6bb703b684e076e304ca9c83c06c494f523183f7274a4247686cefb4516c4ed4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://574caf543dc307795611a2c95ce29ea40bd4dfa4b119810372d57da2af795052",
-				"dweb:/ipfs/QmeaWRW7Q6tY6usEpaqbtPDMYNyKoAfR4hrET9q7x3gkMt"
+				"bzz-raw://fb51a69867d17dfbd11ce953115c31d6317274ee60c5b22db71bc7779399bf0f",
+				"dweb:/ipfs/QmT62wGag2r4KSC5TkuFfyuteMXKzb8N92jnCqDY2kQXfa"
 			]
 		}
 	},

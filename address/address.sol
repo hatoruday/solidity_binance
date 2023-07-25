@@ -3,7 +3,7 @@ pragma solidity ^0.8.17;
 
 contract Address {
   //address public failUser=0xdc3bab6b6af0773a1bf2038fdc716dcd0bdbd564; // 소문자만
-  address public user=0xdC3BaB6B6aF0773a1bf2038fDc716dcD0bDbd564; // 정상적인 주소(대소문자 포함)
+  address public user=0x4fd237668B7AAe2ba8B1E750E0D2788672fd82eC; // 정상적인 주소(대소문자 포함)
   // 체크섬이 정상적이지 않은 주소는 Solidity에서 사용할 수 없음.
 
   // address를 payable로 캐스팅해서 사용.

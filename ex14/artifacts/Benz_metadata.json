@@ -6,8 +6,24 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_premium",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "getCarPrice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,12 +36,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "payable_user",
+				"name": "getDoor",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "uint8",
 						"name": "",
-						"type": "address"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -33,19 +49,25 @@
 			},
 			{
 				"inputs": [],
-				"name": "setEth",
-				"outputs": [],
-				"stateMutability": "payable",
+				"name": "getModel",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "user",
+				"name": "getPrice",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -65,7 +87,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"address/address.sol": "Address"
+			"ex14/inherit_function.sol": "Benz"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -79,12 +101,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"address/address.sol": {
-			"keccak256": "0x9db7ed607bc35b8a0c817566966c9bbf39b370003f2455bbd278bf6596792897",
+		"ex14/inherit_function.sol": {
+			"keccak256": "0xcdf52cba3443cafa006bd6eb6500adc2651ca87d6e80818b39e5dcfba414e390",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://574caf543dc307795611a2c95ce29ea40bd4dfa4b119810372d57da2af795052",
-				"dweb:/ipfs/QmeaWRW7Q6tY6usEpaqbtPDMYNyKoAfR4hrET9q7x3gkMt"
+				"bzz-raw://2c3fdeaa34d4015993d9435bd2fba85d3c717dfbde9862e35208e558030b773d",
+				"dweb:/ipfs/Qmb7LeFtG2T2LY7YhwnyYLmgB7WCmcZLQEU2nHMhmAuaH5"
 			]
 		}
 	},
