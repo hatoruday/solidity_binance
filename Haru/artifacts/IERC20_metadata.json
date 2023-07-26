@@ -230,7 +230,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"erc20/myerc20_flattened.sol": "IERC20"
+			"Haru/haru_pausable_flattened.sol": "IERC20"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -244,11 +244,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"erc20/myerc20_flattened.sol": {
-			"keccak256": "0xa4de9d327247a6c55d3b905d44cf79ceb3024c96e5adff0693161b9552f881b9",
+		"Haru/haru_pausable_flattened.sol": {
+			"keccak256": "0x2012a37b8ad99b3ff80ef14a909b1aa97bbcbee933a49f8ce06a30dd958a9685",
 			"urls": [
-				"bzz-raw://22bce27f3edd8c2aee06a77e4f0b450003b0bde3ffee747f248db1f93570b849",
-				"dweb:/ipfs/QmeFjes4sprfq1G3GNZ7ei8pUZmmgzjBg1zJfMcCdtryvF"
+				"bzz-raw://5b7fa1402d83998ae0f5d881ed2dc561a261ee583167c34d589697d62aac1c2f",
+				"dweb:/ipfs/QmVq9SuEA3LMha9yXpZRzXStPqgptBwDySXySEh6wi8qb6"
 			]
 		}
 	},

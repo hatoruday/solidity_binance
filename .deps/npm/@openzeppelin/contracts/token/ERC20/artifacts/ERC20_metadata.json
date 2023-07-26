@@ -353,13 +353,13 @@
 		"compilationTarget": {
 			".deps/npm/@openzeppelin/contracts/token/ERC20/ERC20.sol": "ERC20"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
